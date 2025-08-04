@@ -21,6 +21,7 @@ function MyCounter(){
                 <button className="counter-button" onClick={reset}>Reset</button>
                 <button className="counter-button" onClick={increment}>Increase</button>
             </div>
+            <span>Created with 💚 by Archduke</span>
         </div>
     );
 }
