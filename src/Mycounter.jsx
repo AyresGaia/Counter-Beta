@@ -16,8 +16,11 @@ function MyCounter(){
     return(
         <div className="counter-container">
             <p className="count-display">{count}</p>
-            <button className="counter-button" onClick={decrement}>Decrease</button>
-            <button className="counter-button" onClick={reset}>Reset</button><button className="counter-button" onClick={increment}>Increase</button>
+            <div className="btn-box">
+                <button className="counter-button" onClick={decrement}>Decrease</button>
+                <button className="counter-button" onClick={reset}>Reset</button>
+                <button className="counter-button" onClick={increment}>Increase</button>
+            </div>
         </div>
     );
 }
